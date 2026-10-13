@@ -1,0 +1,155 @@
+{
+  "topic": "Introduction to RAG",
+  "status": "PASS",
+  "attempts": [
+    {
+      "attempt": 0,
+      "draft_file": "attempt_0.md",
+      "feedback_received": [],
+      "evaluation": {
+        "passed": false,
+        "checks": [
+          {
+            "name": "grounded accuracy",
+            "passed": false,
+            "reason": "must explain retrieval, context, and generation; mention uncertainty; and avoid false guarantees"
+          },
+          {
+            "name": "key coverage",
+            "passed": true,
+            "reason": "must give substantive what, why, how, example, limitations, and recap sections"
+          },
+          {
+            "name": "beginner language",
+            "passed": true,
+            "reason": "must be 220–700 words with at least eight sentences, average sentence <=28 words, and longest <=55 words"
+          },
+          {
+            "name": "jargon clarity",
+            "passed": true,
+            "reason": "must define language model, retrieval, and context in the key-words section"
+          },
+          {
+            "name": "teaches by example",
+            "passed": true,
+            "reason": "example must include a real question and a handbook or document source"
+          },
+          {
+            "name": "coherent flow",
+            "passed": true,
+            "reason": "headings must follow: what, why, how, example, limits, terms, recap"
+          }
+        ]
+      }
+    },
+    {
+      "attempt": 1,
+      "draft_file": "attempt_1.md",
+      "feedback_received": [
+        "grounded accuracy: must explain retrieval, context, and generation; mention uncertainty; and avoid false guarantees"
+      ],
+      "evaluation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "grounded accuracy",
+            "passed": true,
+            "reason": "must explain retrieval, context, and generation; mention uncertainty; and avoid false guarantees"
+          },
+          {
+            "name": "key coverage",
+            "passed": true,
+            "reason": "must give substantive what, why, how, example, limitations, and recap sections"
+          },
+          {
+            "name": "beginner language",
+            "passed": true,
+            "reason": "must be 220–700 words with at least eight sentences, average sentence <=28 words, and longest <=55 words"
+          },
+          {
+            "name": "jargon clarity",
+            "passed": true,
+            "reason": "must define language model, retrieval, and context in the key-words section"
+          },
+          {
+            "name": "teaches by example",
+            "passed": true,
+            "reason": "example must include a real question and a handbook or document source"
+          },
+          {
+            "name": "coherent flow",
+            "passed": true,
+            "reason": "headings must follow: what, why, how, example, limits, terms, recap"
+          }
+        ]
+      }
+    }
+  ],
+  "rejection_log": [
+    {
+      "attempt": 0,
+      "failures": [
+        "grounded accuracy: must explain retrieval, context, and generation; mention uncertainty; and avoid false guarantees"
+      ],
+      "change_requested": [
+        "grounded accuracy: must explain retrieval, context, and generation; mention uncertainty; and avoid false guarantees"
+      ],
+      "resolved_on_attempt": 1,
+      "checks_resolved": [
+        "grounded accuracy"
+      ]
+    }
+  ],
+  "memory": {
+    "runs": [
+      {
+        "at": "2026-10-13T18:06:09.114235+00:00",
+        "topic": "Introduction to RAG",
+        "attempts": 2,
+        "rejections": 1
+      },
+      {
+        "at": "2026-10-13T18:06:22.020135+00:00",
+        "topic": "Introduction to RAG",
+        "attempts": 2,
+        "rejections": 1
+      },
+      {
+        "at": "2026-10-13T18:06:46.914290+00:00",
+        "topic": "Introduction to RAG",
+        "attempts": 2,
+        "rejections": 1
+      },
+      {
+        "at": "2026-10-13T18:09:39.398764+00:00",
+        "topic": "Introduction to RAG",
+        "status": "PASS",
+        "attempts": 2,
+        "rejections": 1
+      },
+      {
+        "at": "2026-10-13T18:10:03.161984+00:00",
+        "topic": "Introduction to RAG",
+        "status": "PASS",
+        "attempts": 2,
+        "rejections": 1
+      }
+    ],
+    "failure_counts": {
+      "grounded accuracy": 5,
+      "key coverage": 4,
+      "beginner language": 4,
+      "jargon clarity": 4,
+      "teaches by example": 4,
+      "coherent flow": 4
+    },
+    "guidance": [
+      "Explain retrieval, supplied context, and generation; never promise a correct answer.",
+      "Include definition, value, steps, example, limits, and recap.",
+      "Use short sentences and simple words for a first-time learner.",
+      "Define retrieval, context, and language model in a key-words section.",
+      "Include a real question and show which document answers it.",
+      "Teach in this order: what, why, how, example, limits, key words, recap."
+    ]
+  }
+}
