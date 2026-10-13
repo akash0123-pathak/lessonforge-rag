@@ -2,7 +2,7 @@
 
 ## Links to submit
 
-- GitHub repository: add the repository URL after pushing this folder.
+- GitHub repository: https://github.com/akash0123-pathak/lessonforge-rag
 - Document link: `outputs/final_lesson.md` is the generated document. Paste its contents into Google Docs or Notion and add the published URL here.
 - Loom: record the walkthrough using the script below and paste the URL here.
 
